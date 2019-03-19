@@ -8,3 +8,25 @@ header {
 #nav-bar {
   box-shadow: 10px 5px 5px rgb(87, 87, 87);
 }
+#navbar-1,
+#navbar-2,
+#navbar-3{
+  height: 45vw;
+  padding: 163px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #fff;
+  background: -webkit-linear-gradient(#19A5B0 ,rgba(25, 165, 176, 0.65) ,#fff);
+  background: -o-linear-gradient(#19A5B0 ,rgba(25, 165, 176, 0.65) ,#fff);
+  background: -moz-linear-gradient(#19A5B0 ,rgba(25, 165, 176, 0.65) ,#fff);
+  background: linear-gradient(#19A5B0 ,rgba(25, 165, 176, 0.65) ,#fff);
+  background-image: url(../image/planet.png);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
