@@ -13,10 +13,6 @@ header {
 #navbar-3{
   height: 45vw;
   padding: 163px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
   background: #fff;
   background: -webkit-linear-gradient(#19A5B0 ,rgba(25, 165, 176, 0.65) ,#fff);
   background: -o-linear-gradient(#19A5B0 ,rgba(25, 165, 176, 0.65) ,#fff);
@@ -53,7 +49,7 @@ header {
   margin: 0 15px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
   #recycle-man {
     width: 80%;
     height: auto;
