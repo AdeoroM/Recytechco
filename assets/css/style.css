@@ -30,3 +30,25 @@ header {
     background-position: bottom;
     background-size: contain;
 }
+
+#telContacto {
+  padding-left: 13px;
+  border-left: 1px solid #000;
+  width: 30%;
+  vertical-align: text-bottom;
+  line-height: 40px;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.redes ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.redes ul li{
+  margin: 0 15px;
+}

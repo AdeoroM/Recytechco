@@ -25,7 +25,6 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
     <title>RECYTECHCO</title>
     <link rel="shortcut icon" href="/assets/image/recytechco-icon.ico" />
   </head>
@@ -86,16 +85,16 @@
                   Nosotros
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item h5 text-success" href="#"
+                  <a
+                    class="dropdown-item h5 text-success"
+                    href="/information.html"
                     >¿Quíenes somos?</a
                   >
                   <a class="dropdown-item h5 text-success" href="idea.html"
                     >Nuestra idea</a
                   >
                   <div class="dropdown-divider"></div>
-                  <a
-                    class="dropdown-item h5 text-success"
-                    href="/contact-us.html"
+                  <a class="dropdown-item h5 text-success" href="#"
                     >Contáctanos</a
                   >
                 </div>
@@ -105,95 +104,109 @@
         </div>
       </nav>
     </header>
-    <div class="m-5 pt-4">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">
-            ¿QUÍENES SOMOS?
-          </h2>
-          <p class="lead text-white">
-            A diario en Colombia se produce entre 30.000 y 32.000 toneladas de
-            basuras diarias. De esto, solo se recicla el 17%, mientras que, en
-            países desarrollados, como Holanda y Suecia, se recicla hasta un 95
-            % de la basura que se produce. Entre residuos de computadores,
-            impresoras, teléfonos móviles y algunos electrodomésticos (neveras,
-            lavadoras, equipos de audio y video), Colombia produce al año
-            aproximadamente 130.000 toneladas de la considerada basura
-            electrónica. Nuestra razón de ser es generar conciencia ambiental y
-            un cambio en la actitud de los colombianos primeramente . Para eso
-            abrimos espacios de gestion accesibles, para que todas aquellas
-            personas puedan dar un manejo adecuado a sus residuos tecnologícos y
-            contribuir a la sostenibilidad del planeta.
-          </p>
-        </div>
-        <div class="col-md-5">
-          <img
-            src="assets/image/basura-electronica.jpg"
-            alt="basura-electronica"
-            width="500"
-            height="500"
-            class="rounded-circle img-fluid"
-          />
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm">
+            <form
+              class="form-horizontal"
+              method="post"
+              action="mailto:adeoromorales@gmail.com subject=Website Feedback"
+              enctype="text/plain"
+            >
+              <fieldset>
+                <legend class="text-center header">CONTÁCTANOS</legend>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2"
+                    ><i class="fa fa-user bigicon"></i
+                  ></span>
+                  <div class="col-md-6 offset-md-3">
+                    <input
+                      id="fname"
+                      name="Nombre(s)"
+                      type="text"
+                      placeholder="Nombre(s)"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-user bigicon"></i
+                  ></span>
+                  <div class="col-md-6 offset-md-3">
+                    <input
+                      id="lname"
+                      name="Apellidos"
+                      type="text"
+                      placeholder="Apellidos"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-envelope-o bigicon"></i
+                  ></span>
+                  <div class="col-md-6 offset-md-3">
+                    <input
+                      id="email"
+                      name="Email"
+                      type="text"
+                      placeholder="Correo electrónico"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-phone-square bigicon"></i
+                  ></span>
+                  <div class="col-md-6 offset-md-3">
+                    <input
+                      id="phone"
+                      name="Teléfono"
+                      type="text"
+                      placeholder="Tel&eacute;fono"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-pencil-square-o bigicon"></i
+                  ></span>
+                  <div class="col-md-6 offset-md-3">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="Mensaje"
+                      placeholder="Por favor escriba su petición."
+                      rows="7"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-lg"
+                      value="Send Email"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
-
-      <hr class="featurette-divider" />
-
-      <div class="row my-4">
-        <div class="col text-center">
-          <img src="assets/image/mision.png" alt="" width="140" height="140" />
-          <h2>MISIÓN</h2>
-          <p class="text-white">
-            Somos una empresa ubicada en la ciudad de barranquilla, dedicada al
-            reciclaje de partes de computadores podremos obtenerlos por medio de
-            nuestra página web, pensando en la mejora del medio ambiente
-            incentivando a la cultura del reciclar; así aseguraremos un mejor
-            futuro para toda la sociedad.
-          </p>
-        </div>
-        <div class="col text-center">
-          <img
-            src="assets/image/vision.png"
-            alt="VISIÓN"
-            width="140"
-            height="140"
-          />
-          <h2>VISIÓN</h2>
-          <p class="text-white">
-            Para el año 2033 seremos una empresa reconocida en la región caribe
-            en el reciclaje de partes de computadores, implementaremos nuestros
-            recursos tecnológicos como lo es nuestra página web, siendo esta la
-            principal herramienta para cumplir nuestro objetivo, capacitaremos
-            constantemente a todo nuestro personal siendo la innovación nuestro
-            modelo a seguir.
-          </p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider" />
-
-      <div class="row featurette my-4">
-        <div class="col-md-7 order-md-2 align-self-center">
-          <h2 class="featurette-heading ">
-            Disponibilidad horaria Virtual.
-          </h2>
-          <p class="lead text-white">
-            Nuestros clientes pueden tener acceso de manera continua a nuestra
-            página web donde podrán encontrar toda nuestra información
-          </p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img
-            src="assets/image/disponibilidad.jpg"
-            alt="page"
-            width="400"
-            height="400"
-            class="rounded-circle img-fluid"
-          />
-        </div>
-      </div>
-
-      <hr class="featurette-divider" />
     </div>
     <footer class="py-5 bg-white">
       <div class="container">
@@ -232,7 +245,7 @@
             </p>
           </div>
           <div class="col col-md">
-            <span id="telContacto">Teléfono</span>
+            <span id="telContacto">Teléfono (1) 484 9170</span>
           </div>
         </div>
       </div>

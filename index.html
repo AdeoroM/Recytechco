@@ -30,7 +30,7 @@
     <link rel="shortcut icon" href="/assets/image/recytechco-icon.ico" />
   </head>
   <body style="background-color:  #6BBB38">
-    <header class="site-header sticky-top ">
+    <header class="site-header sticky-top">
       <nav
         class="d-flex justify-content-center navbar navbar-expand-sm navbar-light text-center  "
         style="background-color: white"
@@ -82,20 +82,22 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  ¿Quíenes somos?
+                  Nosotros
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a
                     class="dropdown-item h5 text-success"
                     href="/information.html"
-                    >¿Cómo lo hacemos?</a
+                    >¿Quíenes somos?</a
                   >
-                  <a class="dropdown-item h5 text-success" href="idea.html"
+                  <a class="dropdown-item h5 text-success" href="/idea.html"
                     >Nuestra idea</a
                   >
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item h5 text-success" href="#"
-                    >Contactanos</a
+                  <a
+                    class="dropdown-item h5 text-success"
+                    href="/contact-us.html"
+                    >Contáctanos</a
                   >
                 </div>
               </li>
@@ -121,17 +123,27 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="d-flex flex-column justify-content-center text-center position-relative overflow-hidden p-3 text-center "id="navbar-1">
+            <div
+              class="d-flex flex-column justify-content-center text-center position-relative overflow-hidden p-3 text-center "
+              id="navbar-1"
+            >
               <div class="d-flex justify-content-around  mb-3" id="textMenuBox">
-                <div class="text-white" id="tMenuBox">
-                  <h3>Somos Una Agencia Creativa<h3>
+                <div class="text-white">
+                  <h3>Somos Una Agencia Creativa</h3>
                 </div>
-                <button onclick="location.href='information.html'" type="button" class="btn btn-light text-success " value="">LEER MAS</button>
+                <button
+                  onclick="location.href='information.html'"
+                  type="button"
+                  class="btn btn-light text-success "
+                  value=""
+                >
+                  LEER MAS
+                </button>
               </div>
               <div id="imgMenuBox">
                 <img
                   src="/assets/image/desktop_image.png"
-                  alt=""
+                  alt="desktop_image"
                   width="628"
                   height="323"
                 />
@@ -140,7 +152,10 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-flex flex-column justify-content-center text-center position-relative overflow-hidden  p-5 text-center" id="navbar-2">
+            <div
+              class="d-flex flex-column justify-content-center text-center position-relative overflow-hidden  p-5 text-center"
+              id="navbar-2"
+            >
               <div id="imgMenuBox">
                 <img
                   src="/assets/image/recycle-man.jpg"
@@ -149,12 +164,14 @@
                   height="450"
                 />
               </div>
-              <div id="blanco"></div> 
-          </div>
+              <div id="blanco"></div>
+            </div>
           </div>
           <div class="carousel-item">
-            <div class="d-flex flex-column justify-content-center text-center position-relative overflow-hidden  p-5 text-center " id="navbar-3">
-            </div>
+            <div
+              class="d-flex flex-column justify-content-center text-center position-relative overflow-hidden  p-5 text-center "
+              id="navbar-3"
+            ></div>
           </div>
         </div>
         <a
@@ -180,8 +197,41 @@
     <footer class="py-5 bg-white">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md">
-            <small class="d-block mb-3 text-muted">© 2019</small>
+          <div class="col col-md">
+            <div class="redes">
+              <small class="d-block ml-3 mb-3 text-muted">© 2019</small>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/reciclaje.tecnologico.129"
+                    target="_blank"
+                    ><img
+                      src="assets/image/facebook.png"
+                      alt="facebook"
+                      width="40"
+                      height="40"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/recytechco" target="_blank"
+                    ><img
+                      src="assets/image/instagram.png"
+                      alt="instagram"
+                      width="40"
+                      height="40"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-md">
+            <p>
+              Síguenos en nuestras redes sociales y conéctate con las mejores
+              noticias, contenidos y productos de RecyTechCo.
+            </p>
+          </div>
+          <div class="col col-md">
+            <span id="telContacto">Teléfono</span>
           </div>
         </div>
       </div>
